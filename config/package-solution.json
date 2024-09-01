@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-20240901-client-side-solution",
+    "id": "c8109e16-9ab4-4ce3-9240-36c9b88c2461",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-fx-20240901 description"
+      },
+      "longDescription": {
+        "default": "sp-fx-20240901 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-20240901 Feature",
+        "description": "The feature that activates elements of the sp-fx-20240901 solution.",
+        "id": "98dd493e-bda3-444d-a173-d0ae3a01496c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-20240901.sppkg"
+  }
+}

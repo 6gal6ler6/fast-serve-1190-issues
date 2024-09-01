@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fast-serve-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fastServeTest/FastServeTestWebPart.js",
+          "manifest": "./src/webparts/fastServeTest/FastServeTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FastServeTestWebPartStrings": "lib/webparts/fastServeTest/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
